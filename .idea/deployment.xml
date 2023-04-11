@@ -9,6 +9,7 @@
           </mappings>
           <excludedPaths>
             <excludedPath path="/ped2" />
+            <excludedPath path="/temp" />
           </excludedPaths>
         </serverdata>
       </paths>

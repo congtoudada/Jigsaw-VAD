@@ -23,7 +23,7 @@ class VideoAnomalyDataset_C3D(Dataset):
                  static_threshold=0.1):
 
         assert os.path.exists(data_dir), "{} does not exist.".format(data_dir)
-        assert dataset in ['shanghaitech', 'ped2', 'avenue'], 'wrong type of dataset.'
+        assert dataset in ['shanghaitech', 'ped2', 'avenue', 'custom' ], 'wrong type of dataset.'
         
         self.dataset = dataset
         self.data_dir = data_dir

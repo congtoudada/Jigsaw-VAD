@@ -24,9 +24,9 @@ def getVADPath(dataset=None, phase=None, withLastSep=True):
 
     # 数据集公共目录
     if plat == 'windows':
-        datasetPath = ".\\dataset"
+        datasetPath = ".\\dataset" # 默认带有 '\\'
     elif plat == 'linux':
-        datasetPath = "/root/data1/lzc/dataset/VAD"
+        datasetPath = "/root/data1/lzc/dataset/VAD" # 默认带有 '/'
 
     # 特定数据集目录: ped2,avenue,shanghaitech
     if dataset:
